@@ -28,31 +28,168 @@
 <!--Add a row div around the 4 images and text below so they will be a separate row in the bootstrap grid-->
 <!--Use bootstrap cards to make the images and text 4 separate cards as can be seen in the example-->
 
+<div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid bg-secondary text-center" style="margin-bottom:0">
+        <h1>Auckland ICT Graduate School</h1>
+        <p>We understand the heart of modern business</p>
+    </div>
 
+
+
+    <!--create a proper horizontal nav menu with bootstrap components-->
+    <!--you will need to add multiple div and nav tags around the anchor tags and put the anchor tags into a proper lists-->
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Study</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Internships</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Business Partners</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FAQs</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<!--create a bootstrap container div around the title and paragraph below and add the appropriate title and paragraph tags-->
+<div class="container">
+    <h1>Join one of the fastest growing industries in the world</h1>
+
+    Technology is one of New Zealand’s fastest growing industries, and our third largest export earner. As a
+    result there’s a huge demand for ICT graduates who can hit the ground running. That’s where the Auckland ICT
+    Graduate School comes in. In a collaboration between the University of Auckland and the University of
+    Waikato, we’ve created two postgraduate programmes to develop smart, industry-ready ICT graduates who will
+    meet this need.
+
+
+    <!--EX02-->
+    <!--Exercise 2 should continue INSIDE the bootstrap container div from Exercise 1 so move the end of the container div so it goes around the row div-->
+    <!--Add a row div around your code-->
+    <!--Look at the example of what the finished page should look like. The divs below should be 2 separate columns-->
+    <!--add bootstrap classes to the 2 child divs inside the 'row' div to make them bootstrap columns -->
+    <!--make the columns responsive so that on a smaller screen they will only be a single column rather than two adjacent columns-->
+    <!--add appropriate bootstrap classes and divs to make all of the content display correctly, this will include making the vertical nav-->
+
+
+
+    <div class="row">
+        <div class="card col-md-4 col-lg-5" style="border: hidden">
+
+
+            <h3>Career Pathways</h3>
+            <img class="card-img-top" src="../images/careers.jpg" alt="Card image cap">
+            <!--<div class="card-body">-->
+            <p class="card-text">
+                The booming IT sector needs graduates with the ability to meet all of the opportunities on offer. The ICT
+                Graduate School has been established to meet the need for well-qualified, industry-ready graduates,
+                ready to step into ICT roles at a wide range of enterprises.
+            </p>
+
+            <h3>Jobs in IT</h3>
+
+            <nav class="navbar bg-white">
+                <ul class="navbar-nav">
+                    <li class="nav-item list-group-item rounded border-0 active" >
+                        <a class="text-light nav-link" href="#">Internet/Multimedia Developer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Communications Specialist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Database Developer</a>
+                    </li>
+                    <li class="nav-group-item rounded border-0">
+                        <a class="nav-link" href="#">Cloud Computing</a>
+                    </li>
+                    <li class="nav-group-item rounded border-0">
+                        <a class="nav-link" href="#">Data Security</a>
+                    </li>
+                    <li class="nav-item rounded border-0">
+                        <a class="nav-link" href="#">Network Developer and Support</a>
+                    </li>
+                </ul>
+            </nav>
+            </p>
+        </div>
+        <!--<div class="row">-->
+        <div class="col-md-8 col-lg-7">
+            <h3>About Us</h3>
+
+            <p>The Auckland ICT Graduate School is a joint initiative by the University of Auckland and the University
+                of Waikato, established to meet the increasing demand for industry-ready ICT graduates. You’ll be taught
+                at either our Auckland campus or our Hamilton campus, and at the premises of our industry partners. Your
+                degree will be awarded by the university where you choose to study.
+            </p>
+            <p>
+                As well as connecting universities, we’re also forging a strong partnership between New Zealand’s
+                tertiary and business sectors. We have long established links with some of New Zealand’s largest and
+                most renowned companies.
+            </p>
+
+            <h2>Postgraduate Certificate in Information Technology</h2>
+            <br>
+
+            <h4>Kick-start your ICT career</h4>
+            <br>
+            <p>Designed for students with a non ICT-related bachelors degree, our Postgraduate Certificate in
+                Information Technology (PGCertInfoTech) will teach you the specialist skills you need to ignite your
+                career in ICT.</p>
+
+            <p>It’s difficult to think of a business area that doesn’t rely on ICT, and ICT capability is integral to
+                business success. ICT is the fastest growing industry in New Zealand, and businesses demand employees
+                who have the skills to help drive this growth.</p>
+
+            <p>If you’ve ever considered working in the ICT sector, the PGCertInfoTech is the programme for you. The
+                short,
+                intensive programme is ideal for those who already have an undergraduate degree in a non ICT-related
+                subject, and offers a supercharged route into the industry.</p>
+
+            <p>You’ll gain fundamental skills in software development, including up-to-date knowledge of object-oriented
+                programming and design, web technologies and databases, which will complement your existing critical
+                thinking and communication abilities.</p>
+
+            <button type="button" class="btn btn-primary" style="margin-bottom: 15px">
+                PG Certificate Paper Information
+            </button>
+
+        </div>
+        <!--</div>-->
+
+<div class="row">
+    <div class="card col-md-6 col-lg-3" style="border: hidden">
     <img class="card-img-top" src="../images/industry.jpg" alt="Card image cap">
-    PG Certificate of Information Technology
+        <h4>PG Certificate of Information Technology</h4>
 
     Kick-start your ICT career with our PGCertInfoTech.
-
-
+    </div>
+    <div class="card col-md-6 col-lg-3" style="border: hidden">
     <img class="card-img-top" src="../images/pathways.jpg" alt="Card image cap">
-    Master of Information Technology
+        <h4>Master of Information Technology</h4>
 
     Develop cutting-edge ICT skills and business know-how with our MInfoTech.
-
-
+    </div>
+    <div class="card col-md-6 col-lg-3" style="border: hidden">
     <img class="card-img-top" src="../images/pgcert.jpg" alt="Card image cap">
-    Career Pathways
+        <h4>Career Pathways</h4>
 
     With one of our qualifications, you’ll be ready for an exciting career in this dynamic sector.
-
-
+    </div>
+    <div class="card col-md-6 col-lg-3" style="border: hidden">
     <img class="card-img-top" src="../images/mit.jpg" alt="Card image cap">
-    Industry Internships
+        <h4>Industry Internships</h4>
 
     The 10-week internship within the MInfoTech offers a unique opportunity.
+    </div>
+</div>
 
 
-
-
+</div>
 </body>
